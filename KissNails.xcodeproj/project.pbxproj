@@ -7,18 +7,130 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		679B58D22894F71A28227FC3 /* Pods_KissNails.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B03FFA18B1A08F03782423 /* Pods_KissNails.framework */; };
+		7232A3ED2CCBC92D00C2B0D8 /* autoCaptureModelV3.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 7232A3EC2CCBC92D00C2B0D8 /* autoCaptureModelV3.mlpackage */; };
+		7232A3EF2CCD3C2600C2B0D8 /* SFSafari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232A3EE2CCD3C2600C2B0D8 /* SFSafari.swift */; };
+		72481EF92CC4AE0C0005633E /* AccountInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72481EF82CC4AE0B0005633E /* AccountInfoViewModel.swift */; };
+		72481EFB2CC4AE480005633E /* AccountInfoAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72481EFA2CC4AE480005633E /* AccountInfoAlerts.swift */; };
+		7268697E2CC1E0CC004CDF9D /* CameraGuideline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7268697D2CC1E0CC004CDF9D /* CameraGuideline.swift */; };
+		726869802CC1E3EC004CDF9D /* Device+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7268697F2CC1E3EC004CDF9D /* Device+extensions.swift */; };
+		726869822CC1E419004CDF9D /* SharedCoreMLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726869812CC1E419004CDF9D /* SharedCoreMLManager.swift */; };
+		726869842CC1E6BC004CDF9D /* NoConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726869832CC1E6BC004CDF9D /* NoConnectionView.swift */; };
+		726869862CC1E741004CDF9D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726869852CC1E741004CDF9D /* NetworkManager.swift */; };
+		726869882CC1E9CB004CDF9D /* Image+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726869872CC1E9CB004CDF9D /* Image+extensions.swift */; };
+		7268698A2CC2728B004CDF9D /* MeasureOptionsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726869892CC2728B004CDF9D /* MeasureOptionsScreen.swift */; };
+		7268698C2CC327CA004CDF9D /* autoCaptureModelFlip.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 7268698B2CC327CA004CDF9D /* autoCaptureModelFlip.mlpackage */; };
+		7268698E2CC34EB4004CDF9D /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7268698D2CC34EB4004CDF9D /* ProfileScreen.swift */; };
+		726869902CC34F94004CDF9D /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7268698F2CC34F94004CDF9D /* ProfileViewModel.swift */; };
+		726869922CC35F7A004CDF9D /* AccountInformationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726869912CC35F7A004CDF9D /* AccountInformationScreen.swift */; };
+		726869942CC3DF17004CDF9D /* CreateAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726869932CC3DF17004CDF9D /* CreateAccountScreen.swift */; };
+		726869962CC3DFA5004CDF9D /* CreateAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726869952CC3DFA5004CDF9D /* CreateAccountViewModel.swift */; };
+		726869982CC4087E004CDF9D /* AccountCreationAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726869972CC4087E004CDF9D /* AccountCreationAlerts.swift */; };
+		7268699A2CC44287004CDF9D /* RecentMeasurementsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726869992CC44287004CDF9D /* RecentMeasurementsScreen.swift */; };
+		7268699C2CC4436E004CDF9D /* RecentMeasurementsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7268699B2CC4436E004CDF9D /* RecentMeasurementsViewModel.swift */; };
+		7268699E2CC443BA004CDF9D /* PreviousMeasurementsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7268699D2CC443BA004CDF9D /* PreviousMeasurementsScreen.swift */; };
+		726869A02CC455AA004CDF9D /* PreviousMeasurementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7268699F2CC455AA004CDF9D /* PreviousMeasurementViewModel.swift */; };
+		728F43F52CCECA9E009D7F3C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 728F43F42CCECA9E009D7F3C /* PrivacyInfo.xcprivacy */; };
+		72DA4C3F2CC9B6E900F19EB4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72DA4C3E2CC9B6E900F19EB4 /* GoogleService-Info.plist */; };
 		72FF79AC2CC07F3800FC0586 /* KissNailsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79AB2CC07F3800FC0586 /* KissNailsApp.swift */; };
 		72FF79AE2CC07F3800FC0586 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79AD2CC07F3800FC0586 /* ContentView.swift */; };
 		72FF79B02CC07F3A00FC0586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FF79AF2CC07F3A00FC0586 /* Assets.xcassets */; };
 		72FF79B32CC07F3A00FC0586 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72FF79B22CC07F3A00FC0586 /* Preview Assets.xcassets */; };
+		72FF79BA2CC08EA300FC0586 /* autoCaptureModel.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79B92CC08EA300FC0586 /* autoCaptureModel.mlpackage */; };
+		72FF79C22CC08F4100FC0586 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79C12CC08F4100FC0586 /* Models.swift */; };
+		72FF79C42CC08FC400FC0586 /* NailCameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79C32CC08FC400FC0586 /* NailCameraViewModel.swift */; };
+		72FF79C72CC0903900FC0586 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79C62CC0903900FC0586 /* LoginViewModel.swift */; };
+		72FF79C92CC0907B00FC0586 /* LoginAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79C82CC0907B00FC0586 /* LoginAlerts.swift */; };
+		72FF79CB2CC090CC00FC0586 /* CameraAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79CA2CC090CC00FC0586 /* CameraAlert.swift */; };
+		72FF79CD2CC0936900FC0586 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79CC2CC0936900FC0586 /* APIServices.swift */; };
+		72FF79CF2CC093AE00FC0586 /* KeyChainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79CE2CC093AE00FC0586 /* KeyChainManager.swift */; };
+		72FF79D12CC0946500FC0586 /* OrangeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79D02CC0946500FC0586 /* OrangeButtonView.swift */; };
+		72FF79D62CC099E900FC0586 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79D52CC099E900FC0586 /* LoadingView.swift */; };
+		72FF79D82CC09A3100FC0586 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79D72CC09A3100FC0586 /* LaunchScreen.swift */; };
+		72FF79DA2CC09A7300FC0586 /* EnvironmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79D92CC09A7300FC0586 /* EnvironmentViewModel.swift */; };
+		72FF79DC2CC09D2100FC0586 /* SharedScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79DB2CC09D2100FC0586 /* SharedScreenManager.swift */; };
+		72FF79DE2CC09DA800FC0586 /* TabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79DD2CC09DA800FC0586 /* TabBarContainerView.swift */; };
+		72FF79E02CC09E6400FC0586 /* ContainerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79DF2CC09E6400FC0586 /* ContainerScreen.swift */; };
+		72FF79E22CC09EB400FC0586 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79E12CC09EB400FC0586 /* StartScreen.swift */; };
+		72FF79E62CC0A0B300FC0586 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79E52CC0A0B300FC0586 /* LoginScreen.swift */; };
+		72FF79E82CC0A10D00FC0586 /* KeyboardNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79E72CC0A10D00FC0586 /* KeyboardNotifier.swift */; };
+		72FF79EA2CC0A21C00FC0586 /* NailCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79E92CC0A21C00FC0586 /* NailCamera.swift */; };
+		72FF79EC2CC0A23D00FC0586 /* NailCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79EB2CC0A23D00FC0586 /* NailCameraView.swift */; };
+		72FF79EE2CC0A27E00FC0586 /* NailCameraRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79ED2CC0A27E00FC0586 /* NailCameraRepresentable.swift */; };
+		72FF79F02CC0A2D900FC0586 /* SubmissionPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79EF2CC0A2D900FC0586 /* SubmissionPhotoView.swift */; };
+		72FF79F22CC0A31D00FC0586 /* NailCameraContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79F12CC0A31D00FC0586 /* NailCameraContainer.swift */; };
+		72FF79F42CC0A38300FC0586 /* ErrorPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79F32CC0A38300FC0586 /* ErrorPopUp.swift */; };
+		72FF79F62CC0A67C00FC0586 /* WaitingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79F52CC0A67C00FC0586 /* WaitingScreen.swift */; };
+		72FF79F82CC0A6AA00FC0586 /* WaitingScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79F72CC0A6AA00FC0586 /* WaitingScreenViewModel.swift */; };
+		72FF79FA2CC0A79D00FC0586 /* ResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79F92CC0A79D00FC0586 /* ResultsViewModel.swift */; };
+		72FF79FC2CC0A7D300FC0586 /* NailResultsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79FB2CC0A7D300FC0586 /* NailResultsScreen.swift */; };
+		72FF79FE2CC0A84D00FC0586 /* ThumbInformationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79FD2CC0A84D00FC0586 /* ThumbInformationScreen.swift */; };
+		72FF7A002CC0A87300FC0586 /* HandInformationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF79FF2CC0A87300FC0586 /* HandInformationScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7232A3EC2CCBC92D00C2B0D8 /* autoCaptureModelV3.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = autoCaptureModelV3.mlpackage; sourceTree = "<group>"; };
+		7232A3EE2CCD3C2600C2B0D8 /* SFSafari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSafari.swift; sourceTree = "<group>"; };
+		72481EF82CC4AE0B0005633E /* AccountInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoViewModel.swift; sourceTree = "<group>"; };
+		72481EFA2CC4AE480005633E /* AccountInfoAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoAlerts.swift; sourceTree = "<group>"; };
+		7268697D2CC1E0CC004CDF9D /* CameraGuideline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraGuideline.swift; sourceTree = "<group>"; };
+		7268697F2CC1E3EC004CDF9D /* Device+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Device+extensions.swift"; sourceTree = "<group>"; };
+		726869812CC1E419004CDF9D /* SharedCoreMLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedCoreMLManager.swift; sourceTree = "<group>"; };
+		726869832CC1E6BC004CDF9D /* NoConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoConnectionView.swift; sourceTree = "<group>"; };
+		726869852CC1E741004CDF9D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		726869872CC1E9CB004CDF9D /* Image+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+extensions.swift"; sourceTree = "<group>"; };
+		726869892CC2728B004CDF9D /* MeasureOptionsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureOptionsScreen.swift; sourceTree = "<group>"; };
+		7268698B2CC327CA004CDF9D /* autoCaptureModelFlip.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = autoCaptureModelFlip.mlpackage; sourceTree = "<group>"; };
+		7268698D2CC34EB4004CDF9D /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		7268698F2CC34F94004CDF9D /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		726869912CC35F7A004CDF9D /* AccountInformationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInformationScreen.swift; sourceTree = "<group>"; };
+		726869932CC3DF17004CDF9D /* CreateAccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountScreen.swift; sourceTree = "<group>"; };
+		726869952CC3DFA5004CDF9D /* CreateAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewModel.swift; sourceTree = "<group>"; };
+		726869972CC4087E004CDF9D /* AccountCreationAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreationAlerts.swift; sourceTree = "<group>"; };
+		726869992CC44287004CDF9D /* RecentMeasurementsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentMeasurementsScreen.swift; sourceTree = "<group>"; };
+		7268699B2CC4436E004CDF9D /* RecentMeasurementsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentMeasurementsViewModel.swift; sourceTree = "<group>"; };
+		7268699D2CC443BA004CDF9D /* PreviousMeasurementsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousMeasurementsScreen.swift; sourceTree = "<group>"; };
+		7268699F2CC455AA004CDF9D /* PreviousMeasurementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousMeasurementViewModel.swift; sourceTree = "<group>"; };
+		728F43F42CCECA9E009D7F3C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		72DA4C3E2CC9B6E900F19EB4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		72FF79A82CC07F3800FC0586 /* KissNails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KissNails.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72FF79AB2CC07F3800FC0586 /* KissNailsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KissNailsApp.swift; sourceTree = "<group>"; };
 		72FF79AD2CC07F3800FC0586 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		72FF79AF2CC07F3A00FC0586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72FF79B22CC07F3A00FC0586 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72FF79B92CC08EA300FC0586 /* autoCaptureModel.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = autoCaptureModel.mlpackage; sourceTree = "<group>"; };
+		72FF79C12CC08F4100FC0586 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		72FF79C32CC08FC400FC0586 /* NailCameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailCameraViewModel.swift; sourceTree = "<group>"; };
+		72FF79C62CC0903900FC0586 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		72FF79C82CC0907B00FC0586 /* LoginAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAlerts.swift; sourceTree = "<group>"; };
+		72FF79CA2CC090CC00FC0586 /* CameraAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAlert.swift; sourceTree = "<group>"; };
+		72FF79CC2CC0936900FC0586 /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		72FF79CE2CC093AE00FC0586 /* KeyChainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainManager.swift; sourceTree = "<group>"; };
+		72FF79D02CC0946500FC0586 /* OrangeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeButtonView.swift; sourceTree = "<group>"; };
+		72FF79D52CC099E900FC0586 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		72FF79D72CC09A3100FC0586 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		72FF79D92CC09A7300FC0586 /* EnvironmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentViewModel.swift; sourceTree = "<group>"; };
+		72FF79DB2CC09D2100FC0586 /* SharedScreenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedScreenManager.swift; sourceTree = "<group>"; };
+		72FF79DD2CC09DA800FC0586 /* TabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarContainerView.swift; sourceTree = "<group>"; };
+		72FF79DF2CC09E6400FC0586 /* ContainerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerScreen.swift; sourceTree = "<group>"; };
+		72FF79E12CC09EB400FC0586 /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
+		72FF79E52CC0A0B300FC0586 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		72FF79E72CC0A10D00FC0586 /* KeyboardNotifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardNotifier.swift; sourceTree = "<group>"; };
+		72FF79E92CC0A21C00FC0586 /* NailCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailCamera.swift; sourceTree = "<group>"; };
+		72FF79EB2CC0A23D00FC0586 /* NailCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailCameraView.swift; sourceTree = "<group>"; };
+		72FF79ED2CC0A27E00FC0586 /* NailCameraRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailCameraRepresentable.swift; sourceTree = "<group>"; };
+		72FF79EF2CC0A2D900FC0586 /* SubmissionPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmissionPhotoView.swift; sourceTree = "<group>"; };
+		72FF79F12CC0A31D00FC0586 /* NailCameraContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailCameraContainer.swift; sourceTree = "<group>"; };
+		72FF79F32CC0A38300FC0586 /* ErrorPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPopUp.swift; sourceTree = "<group>"; };
+		72FF79F52CC0A67C00FC0586 /* WaitingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingScreen.swift; sourceTree = "<group>"; };
+		72FF79F72CC0A6AA00FC0586 /* WaitingScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingScreenViewModel.swift; sourceTree = "<group>"; };
+		72FF79F92CC0A79D00FC0586 /* ResultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewModel.swift; sourceTree = "<group>"; };
+		72FF79FB2CC0A7D300FC0586 /* NailResultsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailResultsScreen.swift; sourceTree = "<group>"; };
+		72FF79FD2CC0A84D00FC0586 /* ThumbInformationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbInformationScreen.swift; sourceTree = "<group>"; };
+		72FF79FF2CC0A87300FC0586 /* HandInformationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandInformationScreen.swift; sourceTree = "<group>"; };
+		84903E464E22838F1BE9D528 /* Pods-KissNails.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KissNails.debug.xcconfig"; path = "Target Support Files/Pods-KissNails/Pods-KissNails.debug.xcconfig"; sourceTree = "<group>"; };
+		C8B03FFA18B1A08F03782423 /* Pods_KissNails.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KissNails.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD7475CA4B01FB699BDAA77 /* Pods-KissNails.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KissNails.release.xcconfig"; path = "Target Support Files/Pods-KissNails/Pods-KissNails.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +138,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679B58D22894F71A28227FC3 /* Pods_KissNails.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		509F92D0E8BF4D9795423EAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8B03FFA18B1A08F03782423 /* Pods_KissNails.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		72FF799F2CC07F3800FC0586 = {
 			isa = PBXGroup;
 			children = (
+				728F43F42CCECA9E009D7F3C /* PrivacyInfo.xcprivacy */,
+				7268698B2CC327CA004CDF9D /* autoCaptureModelFlip.mlpackage */,
+				7232A3EC2CCBC92D00C2B0D8 /* autoCaptureModelV3.mlpackage */,
+				72FF79B92CC08EA300FC0586 /* autoCaptureModel.mlpackage */,
 				72FF79AA2CC07F3800FC0586 /* KissNails */,
 				72FF79A92CC07F3800FC0586 /* Products */,
+				C36BE59412774955F8C06946 /* Pods */,
+				509F92D0E8BF4D9795423EAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +178,14 @@
 		72FF79AA2CC07F3800FC0586 /* KissNails */ = {
 			isa = PBXGroup;
 			children = (
+				72DA4C3E2CC9B6E900F19EB4 /* GoogleService-Info.plist */,
+				72FF79C52CC08FE800FC0586 /* Alerts */,
+				72FF79C02CC08F2F00FC0586 /* ViewModels */,
+				72FF79BF2CC08F2900FC0586 /* Models */,
+				72FF79BE2CC08F1D00FC0586 /* Screens */,
+				72FF79BD2CC08F0A00FC0586 /* Managers */,
+				72FF79BC2CC08F0400FC0586 /* Views */,
+				72FF79BB2CC08EFC00FC0586 /* Helpers */,
 				72FF79AB2CC07F3800FC0586 /* KissNailsApp.swift */,
 				72FF79AD2CC07F3800FC0586 /* ContentView.swift */,
 				72FF79AF2CC07F3A00FC0586 /* Assets.xcassets */,
@@ -67,6 +202,137 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		72FF79BB2CC08EFC00FC0586 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				72FF79E72CC0A10D00FC0586 /* KeyboardNotifier.swift */,
+				7268697F2CC1E3EC004CDF9D /* Device+extensions.swift */,
+				726869872CC1E9CB004CDF9D /* Image+extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		72FF79BC2CC08F0400FC0586 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72FF79D02CC0946500FC0586 /* OrangeButtonView.swift */,
+				72FF79D52CC099E900FC0586 /* LoadingView.swift */,
+				726869832CC1E6BC004CDF9D /* NoConnectionView.swift */,
+				7232A3EE2CCD3C2600C2B0D8 /* SFSafari.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72FF79BD2CC08F0A00FC0586 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				72FF79CC2CC0936900FC0586 /* APIServices.swift */,
+				72FF79CE2CC093AE00FC0586 /* KeyChainManager.swift */,
+				72FF79DB2CC09D2100FC0586 /* SharedScreenManager.swift */,
+				726869812CC1E419004CDF9D /* SharedCoreMLManager.swift */,
+				726869852CC1E741004CDF9D /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		72FF79BE2CC08F1D00FC0586 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				72FF79D42CC094EB00FC0586 /* login */,
+				72FF79D32CC094E400FC0586 /* camera */,
+				72FF79D22CC094DC00FC0586 /* Launch */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		72FF79BF2CC08F2900FC0586 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				72FF79C12CC08F4100FC0586 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		72FF79C02CC08F2F00FC0586 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				72FF79C32CC08FC400FC0586 /* NailCameraViewModel.swift */,
+				72FF79C62CC0903900FC0586 /* LoginViewModel.swift */,
+				72FF79D92CC09A7300FC0586 /* EnvironmentViewModel.swift */,
+				72FF79F72CC0A6AA00FC0586 /* WaitingScreenViewModel.swift */,
+				72FF79F92CC0A79D00FC0586 /* ResultsViewModel.swift */,
+				7268698F2CC34F94004CDF9D /* ProfileViewModel.swift */,
+				726869952CC3DFA5004CDF9D /* CreateAccountViewModel.swift */,
+				7268699B2CC4436E004CDF9D /* RecentMeasurementsViewModel.swift */,
+				7268699F2CC455AA004CDF9D /* PreviousMeasurementViewModel.swift */,
+				72481EF82CC4AE0B0005633E /* AccountInfoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		72FF79C52CC08FE800FC0586 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				72FF79C82CC0907B00FC0586 /* LoginAlerts.swift */,
+				72FF79CA2CC090CC00FC0586 /* CameraAlert.swift */,
+				726869972CC4087E004CDF9D /* AccountCreationAlerts.swift */,
+				72481EFA2CC4AE480005633E /* AccountInfoAlerts.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		72FF79D22CC094DC00FC0586 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				72FF79D72CC09A3100FC0586 /* LaunchScreen.swift */,
+				72FF79DD2CC09DA800FC0586 /* TabBarContainerView.swift */,
+				72FF79DF2CC09E6400FC0586 /* ContainerScreen.swift */,
+				72FF79E12CC09EB400FC0586 /* StartScreen.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		72FF79D32CC094E400FC0586 /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				72FF79E92CC0A21C00FC0586 /* NailCamera.swift */,
+				72FF79EB2CC0A23D00FC0586 /* NailCameraView.swift */,
+				72FF79ED2CC0A27E00FC0586 /* NailCameraRepresentable.swift */,
+				72FF79EF2CC0A2D900FC0586 /* SubmissionPhotoView.swift */,
+				72FF79F12CC0A31D00FC0586 /* NailCameraContainer.swift */,
+				72FF79F32CC0A38300FC0586 /* ErrorPopUp.swift */,
+				72FF79F52CC0A67C00FC0586 /* WaitingScreen.swift */,
+				72FF79FB2CC0A7D300FC0586 /* NailResultsScreen.swift */,
+				72FF79FD2CC0A84D00FC0586 /* ThumbInformationScreen.swift */,
+				72FF79FF2CC0A87300FC0586 /* HandInformationScreen.swift */,
+				7268697D2CC1E0CC004CDF9D /* CameraGuideline.swift */,
+			);
+			path = camera;
+			sourceTree = "<group>";
+		};
+		72FF79D42CC094EB00FC0586 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				72FF79E52CC0A0B300FC0586 /* LoginScreen.swift */,
+				726869892CC2728B004CDF9D /* MeasureOptionsScreen.swift */,
+				7268698D2CC34EB4004CDF9D /* ProfileScreen.swift */,
+				726869912CC35F7A004CDF9D /* AccountInformationScreen.swift */,
+				726869932CC3DF17004CDF9D /* CreateAccountScreen.swift */,
+				726869992CC44287004CDF9D /* RecentMeasurementsScreen.swift */,
+				7268699D2CC443BA004CDF9D /* PreviousMeasurementsScreen.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		C36BE59412774955F8C06946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84903E464E22838F1BE9D528 /* Pods-KissNails.debug.xcconfig */,
+				FCD7475CA4B01FB699BDAA77 /* Pods-KissNails.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +340,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72FF79B62CC07F3A00FC0586 /* Build configuration list for PBXNativeTarget "KissNails" */;
 			buildPhases = (
+				BF482C21E0F968175E032E35 /* [CP] Check Pods Manifest.lock */,
 				72FF79A42CC07F3800FC0586 /* Sources */,
 				72FF79A52CC07F3800FC0586 /* Frameworks */,
 				72FF79A62CC07F3800FC0586 /* Resources */,
+				721AE8052CC9C84B00DEF513 /* ShellScript */,
+				0D3E832DCCFD2AA0F0263879 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,19 +395,137 @@
 			buildActionMask = 2147483647;
 			files = (
 				72FF79B32CC07F3A00FC0586 /* Preview Assets.xcassets in Resources */,
+				72DA4C3F2CC9B6E900F19EB4 /* GoogleService-Info.plist in Resources */,
+				728F43F52CCECA9E009D7F3C /* PrivacyInfo.xcprivacy in Resources */,
 				72FF79B02CC07F3A00FC0586 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D3E832DCCFD2AA0F0263879 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KissNails/Pods-KissNails-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KissNails/Pods-KissNails-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KissNails/Pods-KissNails-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		721AE8052CC9C84B00DEF513 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${PRODUCT_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist",
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/GoogleService-Info.plist",
+				"$(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		BF482C21E0F968175E032E35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KissNails-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		72FF79A42CC07F3800FC0586 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72FF79FE2CC0A84D00FC0586 /* ThumbInformationScreen.swift in Sources */,
+				72FF79D82CC09A3100FC0586 /* LaunchScreen.swift in Sources */,
+				72FF79DC2CC09D2100FC0586 /* SharedScreenManager.swift in Sources */,
 				72FF79AE2CC07F3800FC0586 /* ContentView.swift in Sources */,
+				72FF79C42CC08FC400FC0586 /* NailCameraViewModel.swift in Sources */,
+				72FF79D12CC0946500FC0586 /* OrangeButtonView.swift in Sources */,
+				726869902CC34F94004CDF9D /* ProfileViewModel.swift in Sources */,
+				726869922CC35F7A004CDF9D /* AccountInformationScreen.swift in Sources */,
+				72FF79C72CC0903900FC0586 /* LoginViewModel.swift in Sources */,
+				726869882CC1E9CB004CDF9D /* Image+extensions.swift in Sources */,
+				72FF79E82CC0A10D00FC0586 /* KeyboardNotifier.swift in Sources */,
+				7268699E2CC443BA004CDF9D /* PreviousMeasurementsScreen.swift in Sources */,
+				72FF79BA2CC08EA300FC0586 /* autoCaptureModel.mlpackage in Sources */,
+				7268698C2CC327CA004CDF9D /* autoCaptureModelFlip.mlpackage in Sources */,
+				72481EFB2CC4AE480005633E /* AccountInfoAlerts.swift in Sources */,
+				72FF79D62CC099E900FC0586 /* LoadingView.swift in Sources */,
+				72FF79C92CC0907B00FC0586 /* LoginAlerts.swift in Sources */,
+				72FF79F82CC0A6AA00FC0586 /* WaitingScreenViewModel.swift in Sources */,
+				726869962CC3DFA5004CDF9D /* CreateAccountViewModel.swift in Sources */,
+				726869A02CC455AA004CDF9D /* PreviousMeasurementViewModel.swift in Sources */,
+				72FF79CB2CC090CC00FC0586 /* CameraAlert.swift in Sources */,
+				726869802CC1E3EC004CDF9D /* Device+extensions.swift in Sources */,
+				72FF79EC2CC0A23D00FC0586 /* NailCameraView.swift in Sources */,
+				72FF79E02CC09E6400FC0586 /* ContainerScreen.swift in Sources */,
+				72FF79F02CC0A2D900FC0586 /* SubmissionPhotoView.swift in Sources */,
+				7268699C2CC4436E004CDF9D /* RecentMeasurementsViewModel.swift in Sources */,
+				72FF79EA2CC0A21C00FC0586 /* NailCamera.swift in Sources */,
+				7268698E2CC34EB4004CDF9D /* ProfileScreen.swift in Sources */,
 				72FF79AC2CC07F3800FC0586 /* KissNailsApp.swift in Sources */,
+				726869982CC4087E004CDF9D /* AccountCreationAlerts.swift in Sources */,
+				726869862CC1E741004CDF9D /* NetworkManager.swift in Sources */,
+				72FF79CF2CC093AE00FC0586 /* KeyChainManager.swift in Sources */,
+				7232A3ED2CCBC92D00C2B0D8 /* autoCaptureModelV3.mlpackage in Sources */,
+				72FF79FA2CC0A79D00FC0586 /* ResultsViewModel.swift in Sources */,
+				72FF79F42CC0A38300FC0586 /* ErrorPopUp.swift in Sources */,
+				72FF79C22CC08F4100FC0586 /* Models.swift in Sources */,
+				72FF79F62CC0A67C00FC0586 /* WaitingScreen.swift in Sources */,
+				72FF7A002CC0A87300FC0586 /* HandInformationScreen.swift in Sources */,
+				72FF79E22CC09EB400FC0586 /* StartScreen.swift in Sources */,
+				72481EF92CC4AE0C0005633E /* AccountInfoViewModel.swift in Sources */,
+				7232A3EF2CCD3C2600C2B0D8 /* SFSafari.swift in Sources */,
+				72FF79DA2CC09A7300FC0586 /* EnvironmentViewModel.swift in Sources */,
+				72FF79DE2CC09DA800FC0586 /* TabBarContainerView.swift in Sources */,
+				726869822CC1E419004CDF9D /* SharedCoreMLManager.swift in Sources */,
+				72FF79F22CC0A31D00FC0586 /* NailCameraContainer.swift in Sources */,
+				72FF79FC2CC0A7D300FC0586 /* NailResultsScreen.swift in Sources */,
+				7268697E2CC1E0CC004CDF9D /* CameraGuideline.swift in Sources */,
+				72FF79E62CC0A0B300FC0586 /* LoginScreen.swift in Sources */,
+				7268699A2CC44287004CDF9D /* RecentMeasurementsScreen.swift in Sources */,
+				7268698A2CC2728B004CDF9D /* MeasureOptionsScreen.swift in Sources */,
+				726869842CC1E6BC004CDF9D /* NoConnectionView.swift in Sources */,
+				726869942CC3DF17004CDF9D /* CreateAccountScreen.swift in Sources */,
+				72FF79CD2CC0936900FC0586 /* APIServices.swift in Sources */,
+				72FF79EE2CC0A27E00FC0586 /* NailCameraRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,59 +653,78 @@
 		};
 		72FF79B72CC07F3A00FC0586 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84903E464E22838F1BE9D528 /* Pods-KissNails.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 25;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"KissNails/Preview Content\"";
 				DEVELOPMENT_TEAM = 7G9466WSYH;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kiss Nails";
+				INFOPLIST_KEY_NSCameraUsageDescription = "\"Please allow Kiss Nails access to camera, in order to get measurement data of nails.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.invonto.KissNails;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kissproducts.Kissnails;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		72FF79B82CC07F3A00FC0586 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCD7475CA4B01FB699BDAA77 /* Pods-KissNails.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 25;
 				DEVELOPMENT_ASSET_PATHS = "\"KissNails/Preview Content\"";
 				DEVELOPMENT_TEAM = 7G9466WSYH;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kiss Nails";
+				INFOPLIST_KEY_NSCameraUsageDescription = "\"Please allow Kiss Nails access to camera, in order to get measurement data of nails.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.invonto.KissNails;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kissproducts.Kissnails;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

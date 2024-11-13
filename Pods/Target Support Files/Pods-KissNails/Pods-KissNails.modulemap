@@ -1,0 +1,6 @@
+framework module Pods_KissNails {
+  umbrella header "Pods-KissNails-umbrella.h"
+
+  export *
+  module * { export * }
+}
